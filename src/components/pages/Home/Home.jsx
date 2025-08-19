@@ -20,10 +20,10 @@ const Home = () => {
             man living in modern Istanbul embarks on a quest to save the
             city from an immortal enemy.</p>
             <div className="hero-btns">
-              <button className='btn'><img src={play_icon} alt="" />
               <Link to={`/player/80dqOwAOhbo?rel=0&modestbranding=1&autoplay=1&vq=hd1080`} className="card" >
+              <button className='btn'><img src={play_icon} alt="" />
                 Play
-              </Link></button>
+              </button> </Link>
               <button className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
             </div>
             <TittleCards />
